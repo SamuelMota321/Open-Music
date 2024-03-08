@@ -1,0 +1,63 @@
+.albums {
+    padding: 32px 0;
+}
+
+.albums>h2 {
+    padding: 32px 0;
+
+}
+
+.card-list {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px
+}
+
+.card {
+    border-radius: 10px;
+    background-color: var(--gray-6);
+    color: var(--gray-2);
+}
+
+.album-title {
+    font-size: var(--font-size-normal);
+    font-weight: 600;
+    padding: 10px 16px;
+}
+
+.album-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 16px;
+}
+
+.pricing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.album-price {
+    font-weight: 600;
+}
+
+.buy {
+    background-color: var(--brand-2);
+    color: white;
+    border: 1px solid var(--brand-1);
+    padding: 10px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.album-img{
+    width: 100%;
+    height: 290px;
+    border-radius: 10px 10px 0 0;
+}
+
+
