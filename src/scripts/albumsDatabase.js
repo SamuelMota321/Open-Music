@@ -1,5 +1,5 @@
-export default function importAPI() {
-    fetch('https://openmusic-fake-api.onrender.com/api/musics')
+export default async function importAPI() {
+    await fetch('https://openmusic-fake-api.onrender.com/api/musics')
         .then(function (response) {
             return response.json();
         })
